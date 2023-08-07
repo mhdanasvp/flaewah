@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Bold";   /*Can be any text*/
+  src: local("Helvetica-Bold"),
+    url("./fonts/Helvetica-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("Helvetica"),
+    url("./fonts/Helvetica.ttf") format("truetype");
+}

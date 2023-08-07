@@ -1,0 +1,25 @@
+{
+  "short_name": "Lafare international",
+  "name": "Lafare international dedicated to helping businesses succeed by providing high-quality sourcing and trading services. With over a decade of experience in the industry, we have developed an extensive network of suppliers and a deep understanding of global markets. We specialize in sourcing and procuring high-quality products from around the world",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "lafare-white-logo-s.png",
+      "type": "image/png",
+      "sizes": "131x131"
+    },
+    {
+      "src": "lafare-white-logo-m.png",
+      "type": "image/png",
+      "sizes": "142x118"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
