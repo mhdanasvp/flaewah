@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lafareinternational.com/sitemap.xml
+Sitemap: https://flaewah.com/sitemap.xml

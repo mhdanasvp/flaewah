@@ -25,17 +25,17 @@ const FlaewahFooter = () => {
                 </div>
                 <div className="footer-quick-support">
                 <h3 className="footer-title">Support</h3>
-                    <NavLink to="/about" className="footer-link">Support center</NavLink>
-                    <NavLink to="/about" className="footer-link">Customer care</NavLink>
-                    <NavLink to="/about" className="footer-link">FAQ</NavLink>
+                    <NavLink to="mailto:into@lafareinternational.com" className="footer-link">Support center</NavLink>
+                    <NavLink to="mailto:into@lafareinternational.com" className="footer-link">Customer care</NavLink>
+                    <NavLink to="mailto:into@lafareinternational.com" className="footer-link">FAQ</NavLink>
                 </div>
                 <div className="footer-quick-empty">
                 </div>
                 <div className="footer-quick-social">
-                <NavLink to="https://www.facebook.com/profile.php?id=100087279807781&mibextid=LQQJ4d" className="footer-link"><img src={insta} alt="" /></NavLink>
-                <NavLink to="https://instagram.com/lafareinternational?igshid=MzRlODBiNWFlZA==" className="footer-link"><img src={fb} alt="" /></NavLink>
+                <NavLink to="https://instagram.com/flaewahindia?igshid=OGQ5ZDc2ODk2ZA==" className="footer-link"><img src={insta} alt="" /></NavLink>
+                <NavLink to="https://www.facebook.com/profile.php?id=100088145319409" className="footer-link"><img src={fb} alt="" /></NavLink>
                 {/* <NavLink to="/about" className="footer-link"><img src={twitter} alt="" /></NavLink> */}
-                <NavLink to="https://www.linkedin.com/company/lafare-international-limited/" className="footer-link"><img src={lin} alt="" /></NavLink>
+                <NavLink to="https://www.linkedin.com/company/flaewah/" className="footer-link"><img src={lin} alt="" /></NavLink>
                 </div>
             </div>
             <div className="footer-bottom">

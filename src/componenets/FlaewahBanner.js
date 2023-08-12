@@ -9,27 +9,27 @@ const FlaewahBanner = () => {
   const slides = [
     {
       image: banner1,
-      title1: "Bold flavors in",
-      title2: "every spoonful!",
-      desc: "We serve you in fifteen, where satisfaction's the routine."
+      title1: "We serve you in fifteen,",
+      title2: "where satisfaction's the routine.",
+      // desc: "We serve you in fifteen, where satisfaction's the routine."
     },
     {
       image: banner2,
-      title1: "Transform ordinary",
-      title2: "to extraordinary!",
-      desc: "Savory spices that ignite a fiery sensation"
+      title1: "Unleash your favorite",
+      title2: "flavors far from home",
+      // desc: "Savory spices that ignite a fiery sensation"
     },
     {
       image: banner3,
-      title1: "Fiery heat for your",
-      title2: "kitchen!",
-      desc: "Simplify Your Cooking Process with Our Ready-to-Cook Curry Paste"
+      title1: "Spice up your meal with",
+      title2: "effortless indian curry paste",
+      // desc: "Simplify Your Cooking Process with Our Ready-to-Cook Curry Paste"
     },
     {
       image: banner4,
-      title1: "Versatile for any",
-      title2: "recipe!",
-      desc: "Discover a World of Flavors with Our Versatile Curry Paste"
+      title1: "Simplify Your Cooking with",
+      title2: "Our Ready-to-Cook Curry Paste",
+      // desc: "Discover a World of Flavors with Our Versatile Curry Paste"
     },
   ]
   const [slideIndex, setSlideIndex] = useState(0)
@@ -50,8 +50,8 @@ const FlaewahBanner = () => {
         <div className="flaewah-banner-left">
           <h1>{slides[slideIndex].title1} <br />
             {slides[slideIndex].title2}</h1>
-          <p>{slides[slideIndex].desc}</p>
-          <div>
+          {slides[slideIndex].desc&&<p>{slides[slideIndex].desc}</p>}
+          <div className='flaewah-banner-left-links'>
             <NavLink to="https://youtube.com/@FlaeWahIndia"><img src="./play.png" alt="" /> How to cook!</NavLink>
             <NavLink to="/flaewah/contact">Contact us</NavLink>
           </div>

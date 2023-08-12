@@ -33,7 +33,7 @@ const HowToCook = () => {
           <div className="cook-card">
             <img src={tray} alt="" />
             <h4>SERVE</h4>
-            <p>Serve me witth your family and loved ones</p>
+            <p>Serve me with your family and loved ones</p>
           </div>
         </div>
         <Spacer height="50px"/>

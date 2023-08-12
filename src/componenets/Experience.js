@@ -15,23 +15,19 @@ const Experience = () => {
             <div className="experince-cards">
                 <div className="experince-card">
                     <img src={banner1} alt="" />
-                    <p>Kerala Style
-                        Chicken Curry Paste</p>
+                    <p>Indian style Beef Roast Paste</p>
                 </div>
                 <div className="experince-card">
                     <img src={banner2} alt="" />
-                    <p>Kerala Style
-                        Chicken Curry Paste</p>
+                    <p>Indian style Chicken curry Paste</p>
                 </div>
                 <div className="experince-card">
                     <img src={banner3} alt="" />
-                    <p>Kerala Style
-                        Chicken Curry Paste</p>
+                    <p>Indian style Fish curry Paste</p>
                 </div>
                 <div className="experince-card">
                     <img src={banner4} alt="" />
-                    <p>Kerala Style
-                        Chicken Curry Paste</p>
+                    <p>Indian style Pepper chicken Paste</p>
                 </div>
             </div>
         </div>
