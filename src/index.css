@@ -1268,10 +1268,19 @@ background-repeat: no-repeat; */
   padding: 10px 20px;
   color: var(--brown);
 }
+.delivery-div{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+margin-top: 60px;
+
+}
 .delivery{
-  width: 70%;
+  width: 60%;
   /* height: 200px; */
-  /* background-color: #fff; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1280,14 +1289,18 @@ background-repeat: no-repeat; */
   width: 100px;
   object-fit: contain;
 }
+.delivery img:last-child{
+  width: 70px;
+}
 .flaewah-get-in-touch {
   width: 100%;
-  height: 450px;
+  /* height: 450px; */
   background-color: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 
 .flaewah-get-in-touch h1 {
@@ -1296,9 +1309,10 @@ background-repeat: no-repeat; */
   font-size: 45px;
 
 }
+
 .flaewah-get-in-touch h3 {
-padding-top: 20px;
-  color: var(--white);
+padding: 40px 0 20px;
+  color: var(--black);
   font-size: 25px;
 
 }
@@ -2371,7 +2385,8 @@ padding-top: 20px;
   }
 
   .flaewah-get-in-touch {
-    padding: 0 10px;
+    padding: 50px 0 0;
+    height: auto;
   }
 
   .flaewah-get-in-touch h1 {
@@ -2379,6 +2394,8 @@ padding-top: 20px;
   }
   .flaewah-get-in-touch h3 {
       font-size: 20px;
+      padding-top: 50px;
+      padding-bottom: 10px;
     }
 
   .flaewah-get-in-touch p {
@@ -2498,6 +2515,10 @@ padding-top: 20px;
     margin-right: 0;
     margin-bottom: 20px;
     margin-left: 20px;
+  }
+  .delivery-div{
+    margin-top: 30px;
+    padding: 0 10px;
   }
   .delivery{
     width: 100%;

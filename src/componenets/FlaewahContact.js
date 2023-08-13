@@ -10,12 +10,14 @@ const FlaewahContact = () => {
       <h1>Get in touch with us!</h1>
       <p>Stay connected and get in touch with us! Whether you have a question, feedback, or just want to say hello, we're always happy to hear from you.</p>
       <NavLink to="/contact">Contact us</NavLink>
-      <h3>We are available @</h3>
+<div className="delivery-div">
+<h3>We are Now available @</h3>
       <div className="delivery">
         <img src={amazon} alt="" />
         <img src={eatmate} alt="" />
         <img src={scooter} alt="" />
       </div>
+</div>
     </div>
   )
 }
