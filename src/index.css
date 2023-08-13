@@ -1049,6 +1049,11 @@ background-repeat: no-repeat; */
   align-items: center;
   flex: 2;
 }
+.flaewah-footer-div .flaewah-footer-logo img {
+  height: 200px;
+  object-fit: contain;
+}
+
 
 .flaewah-footer-div .footer-quick-links {
   flex: 1;
@@ -1263,10 +1268,21 @@ background-repeat: no-repeat; */
   padding: 10px 20px;
   color: var(--brown);
 }
-
+.delivery{
+  width: 70%;
+  /* height: 200px; */
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.delivery img{
+  width: 100px;
+  object-fit: contain;
+}
 .flaewah-get-in-touch {
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-color: var(--orange);
   display: flex;
   justify-content: center;
@@ -1278,6 +1294,12 @@ background-repeat: no-repeat; */
 
   color: var(--white);
   font-size: 45px;
+
+}
+.flaewah-get-in-touch h3 {
+padding-top: 20px;
+  color: var(--white);
+  font-size: 25px;
 
 }
 
@@ -2355,6 +2377,9 @@ background-repeat: no-repeat; */
   .flaewah-get-in-touch h1 {
     font-size: 35px;
   }
+  .flaewah-get-in-touch h3 {
+      font-size: 20px;
+    }
 
   .flaewah-get-in-touch p {
     width: 100%;
@@ -2474,5 +2499,12 @@ background-repeat: no-repeat; */
     margin-bottom: 20px;
     margin-left: 20px;
   }
-
+  .delivery{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .delivery img{
+    width: 70px;
+    object-fit: contain;
+  }
 }

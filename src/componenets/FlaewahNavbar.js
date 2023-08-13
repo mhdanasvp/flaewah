@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
-import flaewah_logo from "../images/flaewah-logo-s.png"
+import flaewah_logo from "../images/flaewah-logo.png"
 // import lafare_logo from "../images/lafare-white-logo-m.png"
 import menu_icon from "../images/menu-icon-13.png"
 

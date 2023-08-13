@@ -30,6 +30,7 @@ const Experience = () => {
                     <p>Indian style Pepper chicken Paste</p>
                 </div>
             </div>
+
         </div>
     )
 }
