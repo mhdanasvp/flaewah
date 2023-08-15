@@ -53,7 +53,7 @@ const FlaewahBanner = () => {
           {slides[slideIndex].desc&&<p>{slides[slideIndex].desc}</p>}
           <div className='flaewah-banner-left-links'>
             <NavLink to="https://youtube.com/@FlaeWahIndia"><img src="./play.png" alt="" /> How to cook!</NavLink>
-            <NavLink to="/flaewah/contact">Contact us</NavLink>
+            <NavLink to="/contact">Contact us</NavLink>
           </div>
         </div>
         <div className="flaewah-banner-right">
