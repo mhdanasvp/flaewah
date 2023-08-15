@@ -1212,6 +1212,10 @@ background-repeat: no-repeat; */
   align-items: center;
   z-index: 1;
 }
+.flaewah-why-right img{
+height: 450px;
+object-fit: contain;
+}
 
 .flaewah-why-title {
   font-size: 45px;
