@@ -14,24 +14,24 @@ import FlaewahContact from './FlaewahContact'
 const HowToCook = () => {
   return (
     <div className="how-to-cook">
-      <img className='cook-bgc' src={doodle} alt="" />
+      <img className='cook-bgc' src={doodle} alt="flaewah" />
       <Spacer height="100px"/>
       <div className="how-to-cook-content">
         <h1 className='flaewah-title'>How to cook</h1>
         <h6>Add a Burst of Flavor to Your Meals with Our Authentic <br /> Curry Paste</h6>
         <div className="cook-cards">
           <div className="cook-card">
-            <img src={whisk} alt="" />
+            <img src={whisk} alt="flaewah" />
             <h4>MIX</h4>
             <p>Mix me with your choosen meat/ vegetables</p>
           </div>
           <div className="cook-card">
-            <img src={cooking} alt="" />
+            <img src={cooking} alt="flaewah" />
             <h4>COOK</h4>
             <p>Cook me until i'm ready</p>
           </div>
           <div className="cook-card">
-            <img src={tray} alt="" />
+            <img src={tray} alt="flaewah" />
             <h4>SERVE</h4>
             <p>Serve me with your family and loved ones</p>
           </div>

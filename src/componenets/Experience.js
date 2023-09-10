@@ -14,19 +14,19 @@ const Experience = () => {
                 with Our Premium Curry Paste</h1>
             <div className="experince-cards">
                 <div className="experince-card">
-                    <img src={banner1} alt="" />
+                    <img src={banner1} alt="flaewah" />
                     <p>Indian style Beef Roast Paste</p>
                 </div>
                 <div className="experince-card">
-                    <img src={banner2} alt="" />
+                    <img src={banner2} alt="flaewah" />
                     <p>Indian style Chicken curry Paste</p>
                 </div>
                 <div className="experince-card">
-                    <img src={banner3} alt="" />
+                    <img src={banner3} alt="flaewah" />
                     <p>Indian style Fish curry Paste</p>
                 </div>
                 <div className="experince-card">
-                    <img src={banner4} alt="" />
+                    <img src={banner4} alt="flaewah" />
                     <p>Indian style Pepper chicken Paste</p>
                 </div>
             </div>

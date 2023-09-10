@@ -67,7 +67,7 @@ const ContactUs = () => {
                         <h1 className='failed-text'>Failed</h1>
                         <p>Please try again </p>
                     </div> : success ? <div className='submit-message'>
-                        <img src={verifed} alt="" />
+                        <img src={verifed} alt="flaewah" />
                         <h1 className='success-text'>Thankyou</h1>
                         <p>We will get back to you soon </p>
                     </div> : <div className='submit-message'>
@@ -101,7 +101,7 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className="contact-us-right">
-                    <img src={backgroundMap} alt="" />
+                    <img src={backgroundMap} alt="flaewah" />
                     <div className="address-div">
                         <div className="address">
                             <h3>UK</h3>

@@ -10,9 +10,9 @@ const FlaewahNavbar = ({ bgc }) => {
   return (
     <div style={{ backgroundColor: bgc }} className='flaewah-navbar'>
       <div className="flaewah-navbar-logo">
-        <NavLink to="/"><img className='flaewag-logo' src={flaewah_logo} alt="" /></NavLink>
+        <NavLink to="/"><img className='flaewag-logo' src={flaewah_logo} alt="flaewah" /></NavLink>
       </div>
-      <div onClick={() => setFlaewahMenu(!flaewahMenu)} className="menu-button"><img src={menu_icon} alt="" /></div>
+      <div onClick={() => setFlaewahMenu(!flaewahMenu)} className="menu-button"><img src={menu_icon} alt="flaewah" /></div>
       <div onClick={()=>setFlaewahMenu(false)} className={flaewahMenu?"flaewah-navbar-links-mobile":"flaewah-navbar-links"}>
         <NavLink className={({ isActive }) => isActive ? "flaewah-navbar-link-active" : "flaewah-navbar-link"} to="/">Home</NavLink>
         {/* <NavLink className={({ isActive }) => isActive ? "flaewah-navbar-link-active" : "flaewah-navbar-link"} to="/flaewah/whyflaewah">Why Flaewah</NavLink> */}

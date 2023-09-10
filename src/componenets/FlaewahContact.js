@@ -13,9 +13,9 @@ const FlaewahContact = () => {
 <div className="delivery-div">
 <h3>We are Now available @</h3>
       <div className="delivery">
-        <img src={amazon} alt="" />
-        <img src={eatmate} alt="" />
-        <img src={scooter} alt="" />
+        <img src={amazon} alt="flaewah" />
+        <img src={eatmate} alt="flaewah" />
+        <img src={scooter} alt="flaewah" />
       </div>
 </div>
     </div>

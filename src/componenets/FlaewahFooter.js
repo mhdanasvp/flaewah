@@ -10,7 +10,7 @@ const FlaewahFooter = () => {
         <div className='flaewah-footer'>
             <div className="flaewah-footer-div">
                 <div className="flaewah-footer-logo">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="flaewah" />
                 </div>
                 <div className="footer-quick-links">
                     <h3 className="footer-title">Quik Links</h3>
@@ -32,10 +32,10 @@ const FlaewahFooter = () => {
                 <div className="footer-quick-empty">
                 </div>
                 <div className="footer-quick-social">
-                <NavLink to="https://instagram.com/flaewahindia?igshid=OGQ5ZDc2ODk2ZA==" className="footer-link"><img src={insta} alt="" /></NavLink>
-                <NavLink to="https://www.facebook.com/profile.php?id=100088145319409" className="footer-link"><img src={fb} alt="" /></NavLink>
-                {/* <NavLink to="/about" className="footer-link"><img src={twitter} alt="" /></NavLink> */}
-                <NavLink to="https://www.linkedin.com/company/flaewah/" className="footer-link"><img src={lin} alt="" /></NavLink>
+                <NavLink to="https://instagram.com/flaewahindia?igshid=OGQ5ZDc2ODk2ZA==" className="footer-link"><img src={insta} alt="flaewah" /></NavLink>
+                <NavLink to="https://www.facebook.com/profile.php?id=100088145319409" className="footer-link"><img src={fb} alt="flaewah" /></NavLink>
+                {/* <NavLink to="/about" className="footer-link"><img src={twitter} alt="flaewah" /></NavLink> */}
+                <NavLink to="https://www.linkedin.com/company/flaewah/" className="footer-link"><img src={lin} alt="flaewah" /></NavLink>
                 </div>
             </div>
             <div className="footer-bottom">
