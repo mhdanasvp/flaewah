@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import logo from "../images/flaewah-logo.png"
 import insta from "../images/insta.png"
 import fb from "../images/fb.png"
-import twitter from "../images/twitter.png"
+// import twitter from "../images/twitter.png"
 import lin from "../images/lin.png"
 const FlaewahFooter = () => {
     return (
